@@ -30,6 +30,10 @@ a{
     background-color: blue;
 }
 
+p{
+    line-height: 22px;
+}
+
 
 /* header */
 
@@ -66,9 +70,9 @@ header .logo, header nav, header .btn_full{
     display: inline-block;
 }
 
-.logo img, nav a, .btn_full{
+.logo img, nav a, header .btn_full{
     vertical-align: middle;
-    padding: 0 25px;
+    padding: 0 20px;
 }
 
 
@@ -77,7 +81,7 @@ nav a{
 }
 
 header .btn_full a{
-    padding: 5px 15px;
+    padding: 8px 22px;
     font-size: 0.8rem;
 }
 
@@ -88,6 +92,53 @@ header .btn_full a{
 
 main{
     margin-top: 100px;
+}
+
+.total{
+    background-color: rgb(180, 208, 231);
+}
+
+.ample{
+    width: 82%;
+}
+
+.row{
+    float: left;
+    width: 100%;
+}
+
+.title h1{
+    font-size: 4.3rem;
+    margin: 100px 0 70px;
+}
+
+.text{
+    float: left;
+    width: 32%;
+}
+
+.illustration{
+    float: left;
+    width: 68%;
+}
+
+.illustration img{
+    width: 100%;
+    padding-left: 25px;
+}
+
+.text .btn_full{
+    margin: 35px 0 20px;
+}
+
+.text .btn_full a{
+    padding: 8px 15px;
+}
+
+.text 
+
+.notice{
+    font-size: 0.8rem;
 }
 
 /* /main */
@@ -108,7 +159,7 @@ footer{
     background-color: darkred;
 } */
 
-.debug .total{
+/* .debug .total{
     height: 400px;
     background-color: darksalmon;
 }
@@ -117,7 +168,7 @@ footer{
     width: 80%;
     height: 100%;
     background-color: darkslateblue;
-}
+} */
 
 .debug .container{
     width: 60%;
