@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* utility */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ample, .container{
+    margin: auto;
+}
+
+
+/* header */
+
+/* /header */
+
+
+/* main */
+
+/* /main */
+
+
+/* footer */
+
+footer{
+    background-color: black;
+}
+/* /footer */
+
+
+/* debug */
+
+.debug header{
+    height: 100px;
+    background-color: darkred;
+}
+
+.debug .total{
+    height: 400px;
+    background-color: darksalmon;
+}
+
+.debug .ample{
+    width: 80%;
+    height: 100%;
+    background-color: darkslateblue;
+}
+
+.debug .container{
+    width: 60%;
+    height: 600px;
+    background-color: darkviolet;
+}
+
+.debug footer{
+    height: 400px;
+}
