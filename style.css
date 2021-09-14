@@ -7,6 +7,10 @@
 
 /* utility */
 
+body{
+    font-family: 'Open Sans',sans-serif;
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -17,13 +21,76 @@
     margin: auto;
 }
 
+a{
+    text-decoration: none;
+}
+
+.btn_full a{
+    color: white;
+    background-color: blue;
+}
+
 
 /* header */
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    font-weight: 600;
+}
+
+header .clearfix{
+    width: 100%;
+}
+
+.column_left, .column_right{
+    float: left;
+    width: 50%;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.column_left{
+    text-align: left;
+}
+
+.column_right{
+    text-align: right;
+}
+
+header .logo, header nav, header .btn_full{
+    display: inline-block;
+}
+
+.logo img, nav a, .btn_full{
+    vertical-align: middle;
+    padding: 0 25px;
+}
+
+
+nav a{
+    color: black;
+}
+
+header .btn_full a{
+    padding: 5px 15px;
+    font-size: 0.8rem;
+}
+
+
 
 /* /header */
 
 
 /* main */
+
+main{
+    margin-top: 100px;
+}
 
 /* /main */
 
@@ -38,10 +105,10 @@ footer{
 
 /* debug */
 
-.debug header{
+/* .debug header{
     height: 100px;
     background-color: darkred;
-}
+} */
 
 .debug .total{
     height: 400px;
