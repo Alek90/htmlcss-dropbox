@@ -21,6 +21,14 @@ body{
     margin: auto;
 }
 
+.ample{
+    width: 82%;
+}
+
+.clearfix{
+    width: 100%;
+}
+
 a{
     text-decoration: none;
 }
@@ -44,6 +52,7 @@ header{
     left: 0;
     background-color: white;
     font-weight: 600;
+    z-index: 100;
 }
 
 header .clearfix{
@@ -98,53 +107,53 @@ main{
     background-color: rgb(180, 208, 231);
 }
 
-.ample{
-    width: 82%;
-}
-
-.row{
+.row_title{
     float: left;
     width: 100%;
 }
 
-.title h1{
+.row_title h1{
     font-size: 4.3rem;
     margin: 100px 0 70px;
 }
 
-.text{
+.column_text{
     float: left;
     width: 32%;
 }
 
-.illustration{
+.column_illustration{
     float: left;
     width: 68%;
+    height: 100%;
+    position: relative;
 }
 
-.illustration img{
-    width: 100%;
-    padding-left: 25px;
-}
-
-.text .btn_full{
+.column_text .btn_full{
     margin: 35px 0 20px;
 }
 
-.text .btn_full a{
+.column_text .btn_full a{
     padding: 8px 15px;
 }
-
-.text 
 
 .notice{
     font-size: 0.8rem;
 }
 
 a i{
-    font-size: 2rem;
+    font-size: 2.3rem;
     color: black;
-    margin: 40px 0;
+    margin: 40px 0 115px;
+}
+
+.column_illustration img{
+    width: 100%;
+    padding-left: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
 }
 
 /* /main */
@@ -154,7 +163,9 @@ a i{
 
 footer{
     background-color: black;
+    color: white;
 }
+
 /* /footer */
 
 
