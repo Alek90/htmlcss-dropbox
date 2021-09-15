@@ -25,7 +25,7 @@ body{
     margin: auto;
 }
 
-a{
+a:not(.clients){
     text-decoration: none;
 }
 
@@ -43,6 +43,15 @@ a{
 p{
     line-height: 22px;
 }
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
 
 
 /* header */
@@ -172,9 +181,6 @@ a i{
 /*     background-color: lemonchiffon;
  */}
 
-h2{
-    font-size: 2.2rem;
-}
 
 h2.plans{
     margin: 180px 0 60px;
@@ -196,7 +202,6 @@ h2.plans{
 } 
 
 .contact h3{
-    font-size: 1.5rem;
     margin: 35px 0 25px;
 }
 
@@ -238,6 +243,20 @@ h2.plans{
     margin: 0 5%;
 }
 
+/* /operation */
+
+
+.popularity{
+    width: 53%;
+}
+
+.popularity .clients{
+    display: inline-block;
+    margin: 40px 0;
+}
+
+
+
 /* /main */
 
 
@@ -249,32 +268,3 @@ footer{
 }
 
 /* /footer */
-
-
-/* debug */
-
-/* .debug header{
-    height: 100px;
-    background-color: darkred;
-} */
-
-/* .debug .total{
-    height: 400px;
-    background-color: darksalmon;
-}
-
-.debug .ample{
-    width: 80%;
-    height: 100%;
-    background-color: darkslateblue;
-} */
-
-/* .debug .container{
-    width: 60%;
-    height: 600px;
-    background-color: darkviolet;
-}
- */
-.debug footer{
-    height: 400px;
-}
