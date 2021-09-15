@@ -17,16 +17,12 @@ body{
     clear: both;
 }
 
-.ample, .container{
-    margin: auto;
-}
-
 .ample{
     width: 82%;
 }
 
-.clearfix{
-    width: 100%;
+.ample, .container{
+    margin: auto;
 }
 
 a{
@@ -36,6 +32,12 @@ a{
 .btn_full a{
     color: white;
     background-color: blue;
+}
+
+.btn_empty a{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
 }
 
 p{
@@ -119,15 +121,21 @@ main{
 
 .column_text{
     float: left;
-    width: 32%;
 }
 
 .column_illustration{
     float: left;
+}
+
+.jumbo .column_text{
+    width: 32%;
+}
+
+.jumbo .column_illustration{
     width: 68%;
     height: 100%;
     position: relative;
-}
+}    
 
 .column_text .btn_full{
     margin: 35px 0 20px;
@@ -154,6 +162,52 @@ a i{
     top: 0;
     right: 0;
     z-index: 1;
+}
+
+/* /jumbo */
+
+
+.container{
+    width: 70%;
+/*     background-color: lemonchiffon;
+ */}
+
+h2.plans{
+    font-size: 2.2rem;
+    margin: 180px 0 60px;
+
+}
+
+.column_img{
+    float: left;
+    width: 53%;
+}
+
+.contact .column_text{
+    float: left;
+    width: 47%;
+    padding-left: 50px;
+} 
+    
+.column_img img{
+    width: 100%;
+} 
+
+.contact h3{
+    font-size: 1.5rem;
+    margin: 35px 0 25px;
+}
+
+.contact p{
+    line-height: 30px;
+}
+
+.contact .btn_empty{
+    margin: 30px 0;
+}
+
+.contact .btn_empty a{
+    padding: 8px 15px;
 }
 
 /* /main */
@@ -187,12 +241,12 @@ footer{
     background-color: darkslateblue;
 } */
 
-.debug .container{
+/* .debug .container{
     width: 60%;
     height: 600px;
     background-color: darkviolet;
 }
-
+ */
 .debug footer{
     height: 400px;
 }
