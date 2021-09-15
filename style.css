@@ -172,10 +172,12 @@ a i{
 /*     background-color: lemonchiffon;
  */}
 
-h2.plans{
+h2{
     font-size: 2.2rem;
-    margin: 180px 0 60px;
+}
 
+h2.plans{
+    margin: 180px 0 60px;
 }
 
 .column_img{
@@ -208,6 +210,32 @@ h2.plans{
 
 .contact .btn_empty a{
     padding: 8px 15px;
+}
+
+/* /contact */
+
+
+.operation{
+    margin: 100px 0;
+}
+
+.row{
+    float: left;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.row > div{
+    float: left; 
+    width: 30%;
+}
+
+.row img{
+    width: 100%;
+}
+
+.row div:nth-child(2){
+    margin: 0 5%;
 }
 
 /* /main */
