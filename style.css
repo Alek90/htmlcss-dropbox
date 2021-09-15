@@ -255,6 +255,28 @@ h2.plans{
     margin: 40px 0;
 }
 
+.partners{
+    float: left;
+    width: 15%;
+}
+.window_partner{
+    float: left;
+    width: 40%;
+}
+
+.partners a{
+    width: 100%;
+}
+
+.designit{
+    width: 100%;
+    padding-top: 100%;
+    background-color: green;
+    background-image: url(./img/designit.svg);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
 
 
 /* /main */
@@ -265,6 +287,25 @@ h2.plans{
 footer{
     background-color: black;
     color: white;
+    padding: 100px 0;
+}
+
+
+dl{
+    float: left;
+    width: 20%;
+}
+
+dt{
+    color: white;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+dd a{
+    color: white;
+    font-size: 0.7rem;
+    text-align: 20px;
 }
 
 /* /footer */
