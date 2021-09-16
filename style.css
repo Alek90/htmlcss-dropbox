@@ -481,4 +481,13 @@ footer dd a{
     font-size: 0.7rem;
 }
 
+footer hr{
+    width: 100px;
+    margin: 75px 0 40px;
+}
+
+footer .finish{
+    font-size: 0.6rem;
+}
+
 /* /footer */
