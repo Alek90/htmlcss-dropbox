@@ -9,6 +9,7 @@
 
 body{
     min-width: 1440px;
+    max-width: 1600px;
     font-family: 'Open Sans',sans-serif;
 }
 
@@ -60,6 +61,7 @@ h3{
 header{
     width: 100%;
     min-width: 1440px;
+    max-width: 1600px;
     position: fixed;
     top: 0;
     left: 0;
@@ -185,6 +187,24 @@ a i{
 
 h2.plans{
     margin: 180px 0 60px;
+}
+
+.terms_of_payment span{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+.check{
+    border: 4px solid blue;
+}
+
+.uncheck{
+    border: 1px solid gray;
+    margin-left: 20px;
+
 }
 
 .central{
@@ -381,7 +401,6 @@ li{
     filter: invert(1);
 }
 
-
 .designit{
     background-color: rgb(162, 211, 155);
 }
@@ -442,15 +461,46 @@ li{
     width: 50%;
 }
 
-.buttom_right{
+.button_right{
     float: left;
     width: 50%;
     text-align: right;
 }
 
-.buttom_right .btn_empty a{
+.button_right .btn_empty a{
     padding: 8px 40px;
     border: none;
+}
+
+/* /total */
+
+
+.faq{
+    padding: 100px 0;
+}
+
+.faq h3{
+    margin-bottom: 50px;
+}
+
+.question{
+    float: left;
+    width: 90%;
+    height: 80px;
+}
+
+.question p, .go_answer i{
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+.go_answer{
+    float: left;
+    width: 10%;
+}
+
+.faq p{
+    font-size: 0.8rem;
 }
 
 /* /main */
@@ -463,7 +513,6 @@ footer{
     color: white;
     padding: 100px 0;
 }
-
 
 footer dl{
     float: left;
@@ -482,12 +531,13 @@ footer dd a{
 }
 
 footer hr{
-    width: 100px;
+    width: 90px;
     margin: 75px 0 40px;
 }
 
 footer .finish{
     font-size: 0.6rem;
+    color: gray;
 }
 
 /* /footer */
