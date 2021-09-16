@@ -205,6 +205,58 @@ h2.plans{
     padding: 30px;
 }
 
+.content_plans:not(h3){
+    font-size: 0.8rem;
+}
+
+.content_plans h3{
+    margin: 10px 0 15px;
+}
+
+.reference_duration{
+    margin-top: 10px;
+    color: gray;
+}
+
+ol{
+    list-style: none;
+    margin: 40px 0;
+}
+
+li{
+    margin: 20px 0;
+}
+
+.content_plans .btn_full{
+    text-align: center;
+    line-height: 30px;
+    background-color: blue;
+}
+
+.buy_now{
+    margin: 30px 0;
+}
+    
+.half_card{
+    width: 45px;
+}
+
+dl{
+    margin: 35px 0;
+}
+
+.content_plans dt{
+    font-weight: 700;
+}
+
+.content_plans dd{
+    margin-top: 30px;
+}
+
+.content_plans dd i{
+    color: blue;
+}
+
 
 
 /* /subscription plans */
@@ -330,7 +382,6 @@ footer dt{
 footer dd a{
     color: white;
     font-size: 0.7rem;
-    text-align: 20px;
 }
 
 /* /footer */
