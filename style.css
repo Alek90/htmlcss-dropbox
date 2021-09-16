@@ -360,25 +360,37 @@ li{
 
 .partners{
     float: left;
-    width: 15%;
+    width: 220px;
 }
+
 .window_partner{
     float: left;
-    width: 40%;
+    width: 400px;
+/*     width: 45%;
+ */}
+
+.square{
+    height: 220px;
+    line-height: 220px;
+    text-align: center;
 }
 
-.partners a{
-    width: 100%;
+.partners img{
+    width: 50%;
+    vertical-align: middle;
 }
+
 
 .designit{
-    width: 100%;
-    padding-top: 100%;
     background-color: green;
-    background-image: url(./img/designit.svg);
-    background-position: center;
-    background-size: 50%;
-    background-repeat: no-repeat;
+}
+
+.florida{
+    background-color: cornflowerblue;
+}
+
+.arizona.square{
+    height: 220px;
 }
 
 
