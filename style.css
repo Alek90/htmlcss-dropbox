@@ -8,6 +8,7 @@
 /* utility */
 
 body{
+    min-width: 1440px;
     font-family: 'Open Sans',sans-serif;
 }
 
@@ -58,6 +59,7 @@ h3{
 
 header{
     width: 100%;
+    min-width: 1440px;
     position: fixed;
     top: 0;
     left: 0;
@@ -186,6 +188,29 @@ h2.plans{
     margin: 180px 0 60px;
 }
 
+.card{
+    float: left;
+    width: 30%;
+    border: 1px solid black;
+    margin-top: 35px;
+}
+
+.user{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.content_plans{
+    padding: 30px;
+}
+
+
+
+/* /subscription plans */
+
+
+
 .column_img{
     float: left;
     width: 53%;
@@ -291,18 +316,18 @@ footer{
 }
 
 
-dl{
+footer dl{
     float: left;
     width: 20%;
 }
 
-dt{
+footer dt{
     color: white;
     font-weight: 700;
     margin-bottom: 15px;
 }
 
-dd a{
+footer dd a{
     color: white;
     font-size: 0.7rem;
     text-align: 20px;
