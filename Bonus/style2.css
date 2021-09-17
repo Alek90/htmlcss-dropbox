@@ -60,6 +60,21 @@ h3{
 
 
 
+/* effetti */
+
+.btn_full a:hover, .btn_empty a:hover{
+    text-decoration: underline;
+}
+
+nav a:hover{
+    border-bottom: 2px solid black;
+}
+
+
+
+/* /effetti */
+
+
 /* header */
 
 header{
@@ -106,6 +121,7 @@ header .logo, header nav, header .btn_full{
 
 nav a{
     color: black;
+    padding-bottom: 36px;
 }
 
 header .btn_full a{
@@ -501,6 +517,12 @@ li{
 .go_answer{
     float: left;
     width: 10%;
+    text-align: center;
+}
+
+.answer{
+    float: left;
+    width: 100%;
 }
 
 .faq p{
@@ -542,6 +564,11 @@ footer hr{
 footer .finish{
     font-size: 0.6rem;
     color: gray;
+}
+
+.up i{
+    color: gray;
+    font-size: 00.7rem;
 }
 
 /* /footer */
