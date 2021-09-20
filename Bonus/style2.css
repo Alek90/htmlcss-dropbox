@@ -14,6 +14,7 @@ html{
 body{
     min-width: 1440px;
     max-width: 1600px;
+    margin: auto;
     font-family: 'Open Sans',sans-serif;
 }
 
@@ -74,16 +75,9 @@ nav a:hover{
     display: block;
 }
 
-a.access:active + #ghost{
-    background-color: orchid;
-}
-
-
-
 .go_answer:hover + .answer{
     display: inline-block;
 }
-
 
 
 /* /effetti */
@@ -97,7 +91,8 @@ header{
     max-width: 1600px;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translate(-50%);
     background-color: white;
     font-weight: 600;
     z-index: 100;
@@ -159,71 +154,6 @@ header .btn_full a{
 
 /* /header */
 
-
-/* *****************GHOST**************** */
-
-#ghost{
-    width: 550px;
-    height: 350px;
-    line-height: 40px;
-    text-align: center;
-    padding: 35px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 90;
-    background-color: white;
-    border: 3px solid blue;
-    border-radius: 35px;
-}
-
-.esc{
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    color: rgb(160, 13, 13);
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: none;
-}
-
-.esc i{
-    vertical-align: middle;
-}
-
-#ghost h3{
-    color: lime;
-}
-
-form{
-    margin: 20px 0;
-}
-
-#email, #pwd{
-    display: inline-block;
-    margin: 0 20px;
-    padding: 5px;
-    border-radius: 10px;
-}
-
-#ghost > p{
-    font-size: 0.7rem;
-    font-weight: 600;
-    text-decoration: underline;
-}
-
-#ghost .btn_full a{
-    padding: 5px 10px;
-    border-radius: 10px;
-}
-
-#ghost .btn_full{
-    margin: 20px 0;
-}
-
-/* ----------------/GHOST--------------- */
 
 
 /* main */
@@ -503,7 +433,7 @@ li{
 
 .window_partner{
     float: left;
-    width: 42%;
+    width: calc(100% - 880px);
     height: 440px;
 }
 
